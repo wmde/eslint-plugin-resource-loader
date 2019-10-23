@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-resource-loader",
+  "version": "0.0.0",
+  "description": "ESLint plugin for MediaWiki ResourceLoader specific rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:lint && npm run test:unit",
+    "test:lint": "eslint .",
+    "test:unit": "jest ."
+  },
+  "license": "GPL-2.0+",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-wikimedia": "^0.14.3",
+    "jest": "^24.9.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.0.0 || ^5.0.0 || ^6.0.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
